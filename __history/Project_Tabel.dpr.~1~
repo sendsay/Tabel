@@ -1,0 +1,14 @@
+program Project_Tabel;
+
+uses
+  Vcl.Forms,
+  Tabel in 'Tabel.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
