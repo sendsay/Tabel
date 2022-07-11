@@ -191,7 +191,15 @@ object MainForm: TMainForm
         Font.Style = []
         ParentFont = False
         TabOrder = 1
-        ExplicitTop = 232
+      end
+      object Button3: TButton
+        Left = 1
+        Top = 176
+        Width = 224
+        Height = 62
+        Align = alBottom
+        Caption = 'Button3'
+        TabOrder = 2
       end
     end
   end

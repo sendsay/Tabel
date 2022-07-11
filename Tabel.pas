@@ -19,6 +19,7 @@ type
     ActionExit: TAction;
     Button2: TButton;
     ActionAbout: TAction;
+    Button3: TButton;
     procedure ActionExitExecute(Sender: TObject);
     procedure ActionAboutExecute(Sender: TObject);
   private
