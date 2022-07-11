@@ -198,7 +198,13 @@ object MainForm: TMainForm
         Width = 224
         Height = 62
         Align = alBottom
-        Caption = 'Button3'
+        Caption = 'Personal'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -21
+        Font.Name = 'Calibri'
+        Font.Style = []
+        ParentFont = False
         TabOrder = 2
       end
     end
