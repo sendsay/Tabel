@@ -20,8 +20,10 @@ type
     Button2: TButton;
     ActionAbout: TAction;
     Button3: TButton;
+    ActionPersonal: TAction;
     procedure ActionExitExecute(Sender: TObject);
     procedure ActionAboutExecute(Sender: TObject);
+    procedure ActionPersonalExecute(Sender: TObject);
   private
     { Private declarations }
   public
@@ -34,7 +36,7 @@ var
 implementation
 
 uses
-  About;
+  About, Personal;
 
 {$R *.dfm}
 
@@ -46,6 +48,11 @@ end;
 procedure TMainForm.ActionExitExecute(Sender: TObject);
 begin
   Application.Terminate;
+end;
+
+procedure TMainForm.ActionPersonalExecute(Sender: TObject);
+begin
+  FormPersonal.ShowModal;
 end;
 
 end.

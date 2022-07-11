@@ -1,9 +1,10 @@
 object FormPersonal: TFormPersonal
   Left = 0
   Top = 0
+  BorderStyle = bsToolWindow
   Caption = 'Personal'
-  ClientHeight = 469
-  ClientWidth = 554
+  ClientHeight = 479
+  ClientWidth = 564
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

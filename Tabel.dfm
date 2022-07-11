@@ -197,8 +197,8 @@ object MainForm: TMainForm
         Top = 176
         Width = 224
         Height = 62
+        Action = ActionPersonal
         Align = alBottom
-        Caption = 'Personal'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -21
@@ -220,6 +220,10 @@ object MainForm: TMainForm
     object ActionAbout: TAction
       Caption = 'About'
       OnExecute = ActionAboutExecute
+    end
+    object ActionPersonal: TAction
+      Caption = 'Personal'
+      OnExecute = ActionPersonalExecute
     end
   end
   object JvFormStorage1: TJvFormStorage

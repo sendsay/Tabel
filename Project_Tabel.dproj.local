@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.392,=D:\SOFT\Projects\Tabel\About.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.194,C:\Users\sends\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\SOFT\Projects\Tabel\Project_Tabel.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.189,=C:\Users\sends\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.228,C:\Users\sends\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\SOFT\Projects\Tabel\Tabel.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.228,C:\Users\sends\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\SOFT\Projects\Tabel\Tabel.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.392,=D:\SOFT\Projects\Tabel\About.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.228,D:\SOFT\Projects\Tabel\Tabel.dfm=C:\Users\sends\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.228,D:\SOFT\Projects\Tabel\Tabel.pas=C:\Users\sends\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.194,D:\SOFT\Projects\Tabel\Project_Tabel.dproj=C:\Users\sends\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022.07.11 15:43:05.501,=D:\SOFT\Projects\Tabel\Personal.pas</Transaction>
   </Transactions>
 </BorlandProject>
